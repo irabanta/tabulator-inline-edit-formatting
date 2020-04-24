@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'tabulator-inline-edit-formatting'`, () => {
+  it(`should have as title 'tabulator'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('tabulator-inline-edit-formatting');
+    expect(app.title).toEqual('tabulator');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('tabulator-inline-edit-formatting app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('tabulator app is running!');
   });
 });

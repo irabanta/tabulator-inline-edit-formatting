@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('tabulator-inline-edit-formatting app is running!');
+    expect(page.getTitleText()).toEqual('tabulator app is running!');
   });
 
   afterEach(async () => {

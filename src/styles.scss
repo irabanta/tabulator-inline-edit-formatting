@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+.inline-editor-select{
+    select{
+        font-size:12px !important;
+    }
+}
+.inline-editor-text{
+    padding:2px;
+    height:100%;
+    width:100%;
+    border:1px solid #cccdcf;
+    background-color:#fff;
+    background-clip:padding-box;
+    border-radius:0.25rem;
+    transition:border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ 
+}
+
+.cell-checkbox{
+    width: 15px;
+    height: 15px;
+}
+.checkbox-container{
+    margin-top:10px;
+}
